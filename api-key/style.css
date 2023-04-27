@@ -1,0 +1,26 @@
+#album-view div{
+    max-width: 20%;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+
+
+#album-view{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+img{
+    height: 75%;
+    width: 95%;
+}
