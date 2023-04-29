@@ -155,7 +155,7 @@ function gestione(event){
 			}).then(onResponse).then(onJson);
             break;
         case "bird":
-            fetch('https://api.petfinder.com/v2/animals?species=parrot&status=adoptable', 
+            fetch('https://api.petfinder.com/v2/animals?type=bird&status=adoptable', 
 			{
 				headers: {
 					'Authorization': token_data.token_type + ' ' + token_data.access_token,
