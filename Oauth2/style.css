@@ -1,0 +1,143 @@
+#clickOn{
+    height: 70px;
+    background-color: lightgrey;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    line-height: 350%;
+    margin-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 70%;
+}
+
+#clickOn:hover{
+    background-color: grey;
+}
+
+a{
+    font-size: 15px;
+}
+
+#adoption{
+    /*max-height: 200px;*/
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.animal{
+    margin: 10px;
+    max-height: 200px;
+    max-width: 32.5%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: -1px;
+}
+
+.animalimg{
+    max-height: 70%;
+    max-width: 98%;
+    object-fit: cover;
+}
+
+/* TODO: inserite il CSS necessario per completare il MHW! */
+.choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.choice-grid div{
+    width: calc(32.5% - 2*10px - 2 * 1px);
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+
+.choice-grid img{
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+}
+
+.hidden{
+    display: none;
+}
+
+#risultatoFinale{
+    border: 2px solid black;
+    padding: 10px;
+    font-family: Verdana;
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#risultatoh1{
+    font-size: 30px;
+    margin-bottom: 18;
+}
+
+#restart{
+    border: 2px solid black;
+    background-color: #cecece;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+#restart:hover{
+    background-color: #e0e0e0;
+}
+
+.choice-grid div.selezionato{
+    background-color: #cfe3ff;
+    opacity: 1;
+}
+
+.unselected{
+    opacity: 0.5;
+}
+
+
+@media(max-width: 700px){
+    article{
+        width: 95%;
+    }
+
+    header div{
+        display: none;
+    }
+}
+
+@media(max-width: 500px){
+    .choice-grid div{
+        width: calc(49% - 2*10px - 2 * 1px);
+    }
+}
+
+
+
+
+
+
+
+
+
